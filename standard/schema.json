@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Fire Proof Box",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string",
+        "maxLength": 200
+      },
+      "description": {
+        "type": "string"
+      },
+      "date_added": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "date_added"
+    ]
+  }
+}
+
