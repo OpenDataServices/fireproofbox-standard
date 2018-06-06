@@ -19,7 +19,8 @@
             "type": "string"
           },
           "date_added": {
-            "type": "string"
+            "type": "string",
+            "format": "date"
           }
         },
         "required": [
