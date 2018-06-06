@@ -6,7 +6,7 @@
 	"items": {
 	    "type": "array",
 	    "minItems": 1,
-	    "items": { "$ref": "https://raw.githubusercontent.com/OpenDataServices/fireproofbox-standard/split-schema/standard/schema-item.json" },
+	    "items": { "$ref": "https://raw.githubusercontent.com/OpenDataServices/fireproofbox-standard/master/standard/schema-item.json" },
 	    "uniqueItems": true
 	}   
   },
