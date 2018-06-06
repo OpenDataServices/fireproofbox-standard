@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Fire Proof Box",
+  "type": "object",
+  "properties": {
+	"items": {
+	    "type": "array",
+	    "minItems": 1,
+	    "items": { "$ref": "https://raw.githubusercontent.com/OpenDataServices/fireproofbox-standard/master/standard/schema-item.json" },
+	    "uniqueItems": true
+	}   
+  },
+  "required": [
+    "items"
+  ]
+}
+
