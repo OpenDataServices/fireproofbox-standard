@@ -1,0 +1,5 @@
+sphinx==1.7.5
+sphinx-intl
+transifex-client
+sphinx_rtd_theme
+-e git+https://github.com/rtfd/recommonmark.git@450909bdcf4c5eafde7c89696006530ba7cc78de#egg=recommonmark
