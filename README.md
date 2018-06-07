@@ -22,4 +22,19 @@ Static files are in `_build` directory.
 
 ## With Vagrant
 
-TODO: james
+```
+vagrant up
+vagrant ssh
+build-sphinx
+```
+
+Then browse to http://localhost:8080/
+
+When in the vagrant shell, jsonschema and flatten-tool are also available. You will find your working files in /vagrant.
+
+To exit:
+
+```
+exit
+vagrant halt
+```
