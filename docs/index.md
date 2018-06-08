@@ -9,5 +9,6 @@
    :glob:
 
    overview.md
+   schema.md
 
 ```

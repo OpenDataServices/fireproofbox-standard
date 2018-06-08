@@ -5,6 +5,8 @@
   "properties": {
 	"items": {
 	    "type": "array",
+      "title": "Items",
+      "description": "The list of items in the box.",
 	    "minItems": 1,
 	    "items": { "$ref": "https://raw.githubusercontent.com/OpenDataServices/fireproofbox-standard/master/standard/schema-item.json" },
 	    "uniqueItems": true
