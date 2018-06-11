@@ -13,7 +13,7 @@
 	  "description": {
 	    "type": "string"
 	  },
-	  "date_added": {
+	  "dateAdded": {
 	    "type": "string",
 	    "format": "date"
 	  }
@@ -21,7 +21,7 @@
 	"required": [
 	  "id",
 	  "title",
-	  "date_added"
+	  "dateAdded"
 	]
 }
 
