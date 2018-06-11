@@ -13,10 +13,38 @@
 	  "description": {
 	    "type": "string"
 	  },
+      "provider": {
+        "type": "string",
+        "description": "First and last name of the person who provides the document.",
+        "title": "Provider"
+      },
+      "recipient": {
+        "type": "string",
+        "description": "First and last name of the person who receives the document.",
+        "title": "Recipient"
+      },
 	  "dateAdded": {
 	    "type": "string",
 	    "format": "date"
-	  }
+	  },
+	  "document": {
+        "type": "object",
+        "properties": {
+          "documentID": {
+            "type": "string",
+            "description": "Id of the document.",
+            "title": "Document ID"
+          },
+          "documentType": {
+            "type": "string",
+            "description": "Type of document. For example, 'Passport'",
+            "title": "Document type"
+          }
+        },
+        "required": [
+          "documentType"
+        ]
+      }
 	},
 	"required": [
 	  "id",
